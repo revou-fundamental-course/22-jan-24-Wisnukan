@@ -180,10 +180,13 @@ hr {
     padding-left: 40px;
     padding-top: 20px;
     display: flex;
+    justify-content: center;
 }
 
 .testi2 img {
-    padding: 4px;
+    padding: 15px 4px 4px 4px;
+    width: 40px;
+    height: 40px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -197,7 +200,7 @@ hr {
     }
     
     .testi2 img {
-        padding: 0px;
+        padding: 15px 4px 4px 4px;
     }
 
     hr {

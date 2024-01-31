@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <p>E-Groceries Shop</p>
+            <ul class="navlink">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ourpackage">Our Package</a></li>
+                <li><a href="#contact">Call Us</a></li>
+            </ul>
+            <div class="burger-menu">&#9776;</div>
+        </nav>
+        <hr>
+    </header>
+
+    <main class="main">
+
+        <section id="home">
+            <div class="header" >
+                <p class="judul">Top Rated E-Groceries Shop in Indonesian</p>
+                <p class="teks">"Every Day with best ingredients"</p>
+            </div>
+        </section>
+
+        <section class="body">
+            <div class="col-1">
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="assets/img/53883af0-bb86-4e0f-909f-1ec2cbd0577e_169.jpg" width="100%" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/berries-fruit-vegetables-fresh-wallpaper-preview.jpg" width="100%" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/01072012175414.jpg" width="100%" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/ilustrasi-sayuran-dan-buah-buahan.jpg" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <p class="testimonial">"setiap hari beli buah dan sayur disini"</p>
+                <div class="testi2">
+                    <img src="assets/img/testi2.png" width="60px" alt="">
+                    <div class="namaibu">
+                        <p class="namacust">Ayu Eka Saputri</p>
+                        <p class="status">Ibu Rumah Tangga, 28</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="col-2">
+                <div class="testi3">
+                    <img src="assets/img/testi1.png" alt="">
+                    <div class="namacust1">
+                        <p class="lala">Bowo Santoso</p>
+                        <p class="lili">Software Developer, 38</p>
+                    </div>
+                </div>
+                <p class="haha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolores quidem error dignissimos laudantium enim similique, omnis temporibus sed ipsum repudiandae ullam odio non minima molestias vitae iure?</p>
+                <div class="testi3">
+                    <img src="assets/img/testi3.png" alt="">
+                    <div class="namacust1">
+                        <p class="lala">Aji Pangestu</p>
+                        <p class="lili">Petani Kacang, 48</p>
+                    </div>
+                </div>
+                <p class="haha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolores quidem error dignissimos laudantium enim similique, omnis temporibus sed ipsum repudiandae ullam odio non minima molestias vitae iure?</p>
+                <a href="">View more</a>
+            </div>
+        </section>
+
+        <div id="ourpackage">
+            <section class="skill">
+                <div class="myskill">
+                    <p>Our Package</p>
+                </div>
+                <div class="projectsaya">
+                    <div class="package1">
+                        <img src="assets/img/berries-fruit-vegetables-fresh-wallpaper-preview.jpg" alt="">
+                        <p class="titlepackage">Bahan Segar</p>
+                        <p class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, unde.</p>
+                    </div>
+                    <div class="package1">
+                        <img src="assets/img/berries-fruit-vegetables-fresh-wallpaper-preview.jpg" alt="">
+                        <p class="titlepackage">Bahan Segar</p>
+                        <p class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, dolores.</p>
+                    </div>
+                    <div class="package1">
+                        <img src="assets/img/berries-fruit-vegetables-fresh-wallpaper-preview.jpg" alt="">
+                        <p class="titlepackage">Bahan Segar</p>
+                        <p class="detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, mollitia!</p>
+                    </div>
+                    <div class="package1">
+                        <img src="assets/img/berries-fruit-vegetables-fresh-wallpaper-preview.jpg" alt="">
+                        <p class="titlepackage">Bahan Segar</p>
+                        <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quos?</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <section class="isi" id="contact">
+            <div class="col-3">
+                <h3>Tunggu Apalagi?</h3>
+                <p>Mulai hidup sehat dengan mengkonsumsi makanan yang sehat!</p>
+            </div>
+            <div class="col-4">
+                <h3>Contact us</h3>
+                <form id="form" action="">
+                    <span id="nameError" class="error"></span>
+                    <input type="text" id="name" placeholder="Masukkan Nama">
+                    <span id="emailError" class="error"></span>
+                    <input type="email" id="email" placeholder="Masukkan Email">
+                    <span id="teleponError" class="error"></span>
+                    <input type="number" id="telepon" placeholder="Masukkan Telepon">
+                    <span id="pesanError" class="error"></span>
+                    <textarea id="message" cols="30" rows="10" placeholder="Tulis pesan anda disini.."></textarea>
+                    <button type="sumbit" onclick="validateForm()">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="terms">
+            <p>Terms of service</p>&nbsp;&nbsp;&nbsp;
+            <p>Privasi Policy</p>&nbsp;&nbsp;&nbsp;
+            <p>@2024</p>
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

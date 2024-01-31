@@ -73,6 +73,7 @@ function validateForm() {
     document.getElementById('telepon').value = '';
     document.getElementById('message').value = '';
 
+    alert('Terimakasih! ' + name + ', pesan anda telah terkirim')
     return true;
 }
 

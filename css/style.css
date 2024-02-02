@@ -321,14 +321,19 @@ a {
 
 .projectsaya .package1 {
     display: block;
-    width: 300px;
+    width: 250px;
     justify-content: center;
-    color: white;
-    margin-bottom: 30px;
+    color: black;
+    margin: 0px 10px 30px 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .package1 img {
-    width: 200px;
+    width: 250px;
     border: 1px;
     border-radius: 5px;
     margin: 0 auto;
@@ -355,7 +360,7 @@ a {
         padding-top: 50px;
     }
 
-    .projectsaya {
+    /* .projectsaya {
         display: block;
         justify-content: center;
         margin-top: 40px;
@@ -369,6 +374,24 @@ a {
         justify-content: center;
         color: white;
         margin: 0 auto;
+    } */
+
+    .projectsaya {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .projectsaya .package1 {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 250px;
+        color: black;
+        padding: 10px;
+        background-color: white;
+        border: 1px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     }
 
     .package1 .detail {
